@@ -1,2 +1,2 @@
 # epitech
-In this folder all my Epitech project for which I have well done
+All Epitech exercises I'm proud to share with you :)
