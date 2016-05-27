@@ -5,7 +5,7 @@
 ## Login   <mansar_e@epitech.net>
 ##
 ## Started on  Wed Jan 13 21:58:43 2016 Mansart Esteban
-## Last update Fri May 27 15:41:40 2016 Mansart Esteban
+## Last update Fri May 27 15:55:31 2016 Mansart Esteban
 ##
 
 NAME		=	gnl
@@ -13,7 +13,7 @@ VPATH		=	srcs
 SRCS		=	main.c \
 			gnl.c
 OBJS		=	$(SRCS:.c=.o)
-CFLAGS		=	-g -W -Wall -Wextra -pedantic -ansi
+CFLAGS		=	-W -Wall -Wextra -pedantic -ansi
 CFLAGS		+=	-Iinclude
 
 all		:	$(NAME)
