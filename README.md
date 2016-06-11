@@ -1,3 +1,2 @@
 # epitech-projects
-All epitech cursus needed files.
-Help and cheat :p
+Projects you have to make at Epitech on first year.
