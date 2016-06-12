@@ -5,7 +5,7 @@
 ** Login   <mansar_e@epitech.net>
 ** 
 ** Started on  Sat Jun  4 11:17:43 2016 Mansart Esteban
-** Last update Sat Jun  4 21:04:50 2016 Mansart Esteban
+** Last update Mon Jun  6 09:30:24 2016 Mansart Esteban
 */
 
 #include		"my.h"
@@ -13,6 +13,7 @@
 int			my_prompt(t_list *env)
 {
   my_putstr("my_sh->_ ");
+  printf("get_value(home) = %s\n", get_value(env, "HOME"));
   my_putstr(get_value(env, "HOME"));
   return (1);
 }

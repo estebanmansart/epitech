@@ -5,7 +5,7 @@
 ** Login   <mansar_e@epitech.net>
 ** 
 ** Started on  Sat Jun  4 11:20:15 2016 Mansart Esteban
-** Last update Sat Jun  4 21:33:08 2016 Mansart Esteban
+** Last update Mon Jun  6 09:34:23 2016 Mansart Esteban
 */
 
 #include		"my.h"
@@ -58,7 +58,7 @@ char			*get_value(t_list *env, char *scope)
       printf("src = %s, env = %s\n", scope, tmp->scope);
       if (my_strcmp(scope, tmp->scope) == 0)
 	{
-	  printf("done\n");
+	  env = begin;
 	  return (tmp->value);
 	}
       printf("echec\n");
